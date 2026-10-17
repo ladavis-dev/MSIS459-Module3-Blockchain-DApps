@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# React build output
+build/
+coverage/
+
+# Hardhat generated files
+artifacts/
+cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system
+.DS_Store
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
